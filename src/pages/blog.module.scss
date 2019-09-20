@@ -1,0 +1,32 @@
+.posts {
+  list-style-type: none;
+  margin: 0;
+
+  .post {
+    margin: 1rem 0;
+    background: rgb(99, 147, 236);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+
+    &:hover {
+      background: rgb(68, 123, 224);
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    h2,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-style: italic;
+    }
+  }
+}
